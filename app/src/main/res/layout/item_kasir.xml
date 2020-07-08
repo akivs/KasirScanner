@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:contentPadding="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/bluesmut"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Stok"
+                android:textColor="@color/white"
+                android:id="@+id/tvnamastok"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga Stok"
+                android:layout_below="@id/tvnamastok"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/tvhargastok"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Stok"
+                android:layout_below="@id/tvnamastok"
+                android:layout_toEndOf="@id/tvhargastok"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+                android:id="@+id/tvjumstok"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akhir"
+                android:layout_below="@id/tvnamastok"
+                android:layout_toEndOf="@id/tvjumstok"
+                android:textAlignment="textEnd"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/tvakhir"/>
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_delete_forever"
+            android:layout_alignParentEnd="true"
+            android:tint="@android:color/darker_gray"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

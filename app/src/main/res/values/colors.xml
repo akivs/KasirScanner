@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="primary_text">#E21809</color>
+    <color name="secondary_text">#3646F4</color>
+    <color name="colorbg">#CDDFD8D7</color>
+    <color name="white">#fdfdfd</color>
+    <color name="green">#94e492</color>
+    <color name="aisy">#72DB16</color>
+    <color name="blue">#7499ff</color>
+    <color name="bluesmut">#3687E2</color>
+    <color name="abu">#ebc4c4c4</color>
+    <color name="abu2">#ebf1f1f1</color>
+    <color name="orange">#ebcf613e</color>
+    <color name="yellow">#FFEE00</color>
+    <color name="trans">#80000000</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="greendar">#00FFFF</color>
+    <color name="black">#eb282828</color>
+    <color name="dark_green">#eb065900</color>
+    <color name="dark_green2">#278b7f</color>
+    <color name="red">#ebf10a0a</color>
+    <color name="card">#4355CC</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#800000</color>
+    <color name="bg_screen2">#006400</color>
+    <color name="bg_screen3">#008B8B</color>
+    <color name="bg_screen4">#8A2BE2</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_hint">#5e6266</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FFFFF0</color>
+    <color name="dot_dark_screen2">#FFFFF0</color>
+    <color name="dot_dark_screen3">#FFFFF0</color>
+    <color name="dot_dark_screen4">#FFFFF0</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#A9A9A9</color>
+    <color name="dot_light_screen2">#A9A9A9</color>
+    <color name="dot_light_screen3">#A9A9A9</color>
+    <color name="dot_light_screen4">#A9A9A9</color>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="Red">#d22c2f</color>
+    <color name="Green">#1c9c38</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">KasirBarcode</string>
+    <string name="title_pembelian">Pembelian</string>
+    <string name="title_nominal">Nominal</string>
+    <string name="title_simpan">Simpan</string>
+    <string name="title_pengeluaran">KasirBarcode</string>
+
+    <string name="adsid">ca-app-pub-3732997431711243/6750711882</string>
+
+    <string name="mnstok">GUDANG</string>
+    <string name="sp_profil">data_profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">seting</string>
+    <string name="title_activity_ads">AdsActivity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="profil_nama">Nama</string>
+    <string name="profil_alamat">Alamat</string>
+    <string name="profil_telepon">Telepon</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="dialog_profil">Simpan Profil</string>
+    <string name="dialog_ask">Apakah anda yakin ?</string>
+    <string name="dialog_null">Harap lengkapi data dengan benar !</string>
+    <string name="er_nama">Masukan Nama</string>
+    <string name="er_alamat">Masukan ALamat</string>
+    <string name="er_telepon">Masukan Telepon</string>
+    <string name="mnprofil">Profil</string>
+    <string name="mnaddstok">Tambah Barang</string>
+    <string name="stok_kode">Kode</string>
+    <string name="stok_nama">Nama Barang</string>
+    <string name="stok_jum">Jumlah Barang</string>
+    <string name="stok_harga">Harga Satuan</string>
+    <string name="dialog_stok">Simpan Barang</string>
+    <string name="dialog_berhasil">Berhasil menginput data</string>
+    <string name="dialog_stokganda">Barang sudah terinput !</string>
+    <string name="sp_kasir">sp_kasir</string>
+    <string name="profil_kasir">Nama Kasir</string>
+    <string name="er_Kasir">Masukan Nama Kasir</string>
+    <string name="total">Total</string>
+    <string name="dialog_stokhabis">Barang tidak mencukupi !</string>
+    <string name="mnkasir">Kasir</string>
+    <string name="mntrans">Transaksi</string>
+    <string name="dialog_stoknull">Barang tidak ditemukan !</string>
+    <string name="title_ket">Keterangan</string>
+    <string name="send_to">Bagikan</string>
+    <string name="dialog_gambar">Gambar berhasil disimpan</string>
+    <string name="mnbarcode">Barcode</string>
+    <string name="nama">Nama</string>
+    <string name="ket">Keterangan</string>
+    <string name="mnaddbarcode">Tambah Barcode</string>
+    <string name="dialog_barcode">Simpan Barcode</string>
+    <string name="hapus">Yakin untuk menghapus item</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Ya</string>
+    <string name="profil">Profil</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="kasir">Kasir Barcode</string>
+    <string name="stok">Gudang</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="download">Unduh</string>
+    <string name="tunai">TUNAI</string>
+    <string name="tunai2">Tunai</string>
+    <string name="selesai">Selesai</string>
+    <string name="kembali">Kembali</string>
+    <string name="doalog_pil">Pilih Salah Satu:-</string>
+    <string name="profil_uang">Mata Uang</string>
+    <string name="tunaiisi">Harap isi tunai!</string>
+    <string name="jumisi">Harap isi !</string>
+    <string name="adsids" >ca-app-pub-3940256099942544/6300978111</string>
+    <string name="stok_hargabeli">Harga Beli</string>
+    <string name="stok_hargajual">Harga Jual</string>
+    <string name="kamera">Kamera</string>
+    <string name="cari_stok">Cari Barang</string>
+    <string name="notic">Dalam pengembangan !</string>
+    <string name="manual">Cara Penggunaan</string>
+    <string name="penggunaan_kasirbarcode">Penggunaan KasirBarcode</string>
+    <string name="tt00">- Untuk penggunaan KasirBarcode harap lengkapi Data Profil > Masukan Barang di Gudang, kemudian anda dapat menggunakan KasirBarcode. </string>
+    <string name="tt01" >1. Nama Bisnis yang akan diatur di Profil. \n2. Nama Admin kasir.\n3. Menu Gudang adalah menu yang akan menampung semua barang yang anda miliki untuk kepentingan transaksi.\n4. Menu KasirBarcode adalah menu untuk menjual barang-barang yang sudah anda masukan diGudang.\n5. Menu Transaksi adalah menu untuk melihat transaksi yang sudah selesai di menu KasirBarcode.\n6. Menu Profil adalah menu untuk merubah data pengguna untuk digunakan di KasirBarcode.\n7. Menu Barcode adalah menu untuk membuat Barcode, jika barang belum memiliki barcode.
+</string>
+    <string name="tt02" >1. Nama Toko/Warung ataupun lainnya\n2. Alamat Toko/Warung ataupun lainnya\n3. Nomor Telepon Toko/Warung ataupun lainnya\n4. Nama Kasir yang akan menggunakan KasirBarcode\n5. Mata Uang yang akan digunakan di KasirBarcode\n6. Untuk memberi Rating Aplikasi KasirBarcode\n7. Untuk membagikan Aplikasi kepada teman-teman anda\n8. Cara Penggunaan KasirBarcode\nJika ingin merubah data anda tekan pada poin 1-5\n
+</string>
+    <string name="tt03" >1. Isi data yang akan digunakan di KasirBarcode\n2. Pilih Mata Uang yang akan digunakan KasirBarcode\n3. Tombol untuk menyimpan data\n
+</string>
+    <string name="tt04" >1. Kumpulan Barang yang akan digunaka di menu KasirBarcode.\nJika ingin merubah data barang harap tekan dan tahan pada barang yang ingin dirubah\n2. Tombol untuk menambah barang yang anda miliki.\n
+</string>
+    <string name="tt05" >Data barang yang harus diisi.\n1. Harga yang akan digunakan di menu KasirBarcode.\n2. Untuk membuka kamera dan mengfoto barang yang anda miliki\n3. Hasil foto barang akan ditampilkan disini.\n4. Tombol untuk menyimpan data barang.\n
+</string>
+    <string name="tt06" >1. Kamera untuk membaca barcode barang yang sudah anda masukan di Gudang.\n2. Jumlah barang yang akan dibeli.\n3. Total barang yang akan dibeli.\n4. Tombol untuk mencari barang sesuai nama barang yang sudah anda masukan di gudang.\n
+</string>
+    <string name="tt07" >1. Kolom untuk mencari barang yang sudah anda masukan di Gudang.\n2. Daftar barang yang akan dibeli. jika barang ingin dibeli tekan pada barang yang dipilih.\n3. Tombol untuk mencari barang yang akan dibeli di KasirBarcode.\n
+</string>
+    <string name="tt08" >1. Jumlah barang yang akan dibeli.\n2. Total barang yang akan dibeli.\n3. Daftar barang yang akan dibeli.\n4. Jumlah Uang yang diterima.\n5. Tombol untuk menyelesaikan pembelian.\n6. Tombol untuk mencari barang yang akan dibeli di KasirBarcode.\n
+</string>
+    <string name="tt09" >1. Data Pengguna yang sudah dirubah di menu Profil.\n2. Daftar Barang yang sudah dibeli dan penjumlahannya.\n3. Tombol untuk menambah barang yang akan dibeli.\n4. Tombol untuk kembali ke menu utama.\n5. Tombol untuk mengunduh/mencetak daftar barang yang sudah dibeli.\n6. Tombol untuk membagikan daftar barang yang sudah dibeli.\n
+</string>
+    <string name="tt10" >Jika Tap muncul berarti KasirBarcode tidak bisa membaca Barcode barang.\nJika ingin mengaktifkan lagi tekan di layar TAP.\n
+</string>
+    <string name="tt11" >1. Kolom untuk mencari transaksi yang sudah dilakukan di KasirBarcode.\n2. Daftar Transaksi yang sudah dilakukan di KasirBarcode.\n
+Jika ingin melihat daftar barangnya tekan dan tahan pada transaksi yang dipilih.\n
+</string>
+    <string name="tt12" >1. Daftar Barcode yang sudah dibuat.\n2. Tombol untuk membuat Barcode.\n\n\nSemoga KasirBarcode dapat mengatasi masalah anda</string>
+    <string name="cetak">Cetak</string>
+    <string name="tambah">Tambah</string>
+    <string name="menu">Menu</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="cari_transaksi_menurut_tanggal_admin">Cari Transaksi menurut Tanggal/Admin</string>
+</resources>

@@ -1,0 +1,117 @@
+<resources>
+    <string name = "app_name"> Cashier Barcode </string>
+    <string name = "title_pembelian"> Purchase </string>
+    <string name = "title_nominal"> Nominal </string>
+    <string name = "title_simpan"> Save </string>
+    <string name = "title_pengeluaran"> Cashier Barcode </string>
+
+    <string name = "adsid"> ca-app-pub-3732997431711243/6750711882 </string>
+
+    <string name = "mnstok"> STOCK </string>
+    <string name = "sp_profil"> data_profil </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_blank_fragment"> Hello blank fragment </string>
+    <string name = "action_settings"> setting </string>
+    <string name = "title_activity_ads"> AdsActivity </string>
+
+    <string name = "interstitial_ad_sample"> Interstitial Ad Sample </string>
+    <string name = "start_level"> Level 1 </string>
+    <string name = "next_level"> Next Level </string>
+    <!--
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!-->
+    <string name = "interstitial_ad_unit_id"> ca-app-pub-3940256099942544/1033173712 </string>
+    <string name = "profil_nama"> Name </string>
+    <string name = "profil_alamat"> Address </string>
+    <string name = "profil_telepon"> Phone </string>
+    <string name = "simpan"> SAVE </string>
+    <string name = "dialog_profil"> Save Profile </string>
+    <string name = "dialog_ask"> Are you sure? </string>
+    <string name = "dialog_null"> Please complete the data correctly! </string>
+    <string name = "er_nama"> Enter name </string>
+    <string name = "er_alamat"> Enter Address </string>
+    <string name = "er_telepon"> Enter Phone </string>
+    <string name = "mnprofil"> Profile </string>
+    <string name = "mnaddstok"> Add Item </string>
+    <string name = "stok_kode"> Code </string>
+    <string name = "stok_nama"> Item Name </string>
+    <string name = "stok_jum"> Amount of Goods </string>
+    <string name = "stok_harga"> Unit Price </string>
+    <string name = "dialog_stok"> Save Item </string>
+    <string name = "dialog_berhasil"> Successfully entered data </string>
+    <string name = "dialog_stokganda"> Item has been inputted! </string>
+    <string name = "sp_kasir"> sp_kasir </string>
+    <string name = "profil_kasir"> Cashier Name </string>
+    <string name = "er_Kasir"> Enter Cashier Name </string>
+    <string name = "total"> Total </string>
+    <string name = "dialog_stokhabis"> Not enough items! </string>
+    <string name = "mnkasir"> Cashier </string>
+    <string name = "mntrans"> Transaction </string>
+    <string name = "dialog_stoknull"> Item not found! </string>
+    <string name = "title_ket"> Description </string>
+    <string name = "send_to"> Share </string>
+    <string name = "dialog_gambar"> Image saved successfully </string>
+    <string name = "mnbarcode"> Barcode </string>
+    <string name = "nama"> Name </string>
+    <string name = "ket"> Description </string>
+    <string name = "mnaddbarcode"> Add Barcode </string>
+    <string name = "dialog_barcode"> Save Barcode </string>
+    <string name = "hapus"> Are you sure to delete the item </string>
+    <string name = "no"> No </string>
+    <string name = "yes"> Yes </string>
+    <string name = "profil"> Profile </string>
+    <string name = "transaksi"> Transaction </string>
+    <string name = "kasir"> Barcode Cashier </string>
+    <string name = "stok"> Warehouse </string>
+    <string name = "bagikan"> Share </string>
+    <string name = "download"> Download </string>
+    <string name = "tunai"> CASH </string>
+    <string name = "tunai2"> Cash </string>
+    <string name = "selesai"> Finish </string>
+    <string name = "kembali"> Back </string>
+    <string name = "doalog_pil"> Choose One: - </string>
+    <string name = "profil_uang"> Currency </string>
+    <string name = "tunaiisi"> Please fill in cash! </string>
+    <string name = "jumisi"> Please fill in! </string>
+    <string name = "adsids"> ca-app-pub-3940256099942544/6300978111 </string>
+    <string name = "stok_hargabeli"> Purchase Price </string>
+    <string name = "stok_hargajual"> Selling Price </string>
+    <string name = "kamera"> Camera </string>
+    <string name = "cari_stok"> Search for Items </string>
+    <string name = "notic"> Under development! </string>
+    <string name = "manual"> How to use </string>
+    <string name = "penggunaan_kasirbarcode"> Use of CashierBarcode </string>
+    <string name="tt00">- To use KasirBarcode please complete the Profile Data> Enter Goods in the Warehouse, then you can use KasirBarcode. </string>
+    <string name = "tt01"> 1. Business Name to be set in Profile. \n2. Cashier Admin Name. \N3. The Warehouse menu is a menu that will hold all the items that you have for the purpose of the transaction. \n4. Cashier Menu Barcode is a menu for selling items that you have entered in the Warehouse. \n5. Transaction menu is a menu to view completed transactions in the CashierBarcode menu. \n6. The Profile Menu is a menu for changing user data to be used in KasirBarcode. \n7. Barcode menu is a menu to create a barcode, if the item does not have a barcode.
+</string>
+<string name = "tt02"> 1. Store or other name \n2. Store or other address \n3. Store  or other Telephone Numbers \n4. Name of Cashier who will use CashierBarcode \n5. Currency to be used at CashierBarcode \n6. To rate the CashierBarcode Application \n7. To share the Application with your friends \n8. How to use CashierBarcode \nIf you want to change your data press on points 1-5 \n
+</string>
+    <string name = "tt03"> 1. Fill in the data to be used at CashierBarcode \n2. Select the currency to use CashierBarcode \n3. Button to save data \n
+</string>
+    <string name = "tt04"> 1. Collection of Items to be used in the CashierBarcode menu. \nIf you want to change item data, please press and hold the item you want to change \n2. Button to add items you have. \n
+</string>
+    <string name = "tt05"> Item data must be filled in. \n1. The price will be used in the CashierBarcode menu. \n2. To open the camera and photograph the items you have \n3. The product photos will be displayed here. \n4. Button to store item data. \n
+</string>
+    <string name = "tt06"> 1. Camera to read barcodes of goods that you have entered at the warehouse. \n2. Number of items to be purchased. \n3. Total items to be purchased. \n4. Button to search for items according to the name of the item you have entered at the warehouse. \n
+</string>
+    <string name = "tt07"> 1. Column to search for items you have entered in the warehouse. \n2. List of items to be purchased. if the item you want to buy press on the item selected. \n3. Button to search for items to be purchased at CashierBarcode. \n
+</string>
+    <string name = "tt08"> 1. Number of items to be purchased. \n2. Total items to be purchased. \n3. List of items to be purchased. \n4. Amount of Money Received. \n5. Button to complete the purchase. \n6. Button to search for items to be purchased at CashierBarcode. \n
+</string>
+    <string name = "tt09"> 1. User Data that has been changed in the Profile menu. \n2. List of items that have been purchased and their totals. \n3. Button to add items to be purchased. \n4. Button to return to the main menu. \n5. Button to download / print a list of items that have been purchased. \n6. Button to share the list of items that have been purchased. \n
+</string>
+    <string name = "tt10"> If Tap appears, Cashier Barcode cannot read the item Barcode. \nIf you want to activate it again press on the TAP screen. \n
+</string>
+    <string name = "tt11"> 1. Column to search for transactions that have been carried out at CashierBarcode. \n2. List of Transactions that have been done at CashierBarcode. \n
+If you want to see the list of items press and hold on the selected transaction. \n
+</string>
+    <string name = "tt12"> 1. List of Barcodes that have been created. \n2. Button to create a Barcode. \n
+</string>
+    <string name = "cetak"> Print </string>
+    <string name = "tambah"> Add </string>
+    <string name = "menu"> Menu </string>
+    <string name="bahasa">Language</string>
+    <string name="cari_transaksi_menurut_tanggal_admin">Search Transactions by Date / Admin</string>
+</resources>

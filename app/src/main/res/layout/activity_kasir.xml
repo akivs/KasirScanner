@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".KasirActivity">
+
+    <include layout="@layout/header" />
+
+    <include layout="@layout/content_kasir" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddStok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        app:backgroundTint="@color/red"
+        android:layout_marginBottom="90dp"
+        android:onClick="gocaristok"
+        app:srcCompat="@drawable/ic_search_black_24dp" />
+
+
+    <include layout="@layout/pop_tap"/>
+    <include layout="@layout/pop_kasir"/>
+
+</RelativeLayout>

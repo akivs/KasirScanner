@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/bg"
+    tools:context=".MenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/kasirlogo"
+            android:contentDescription="TODO" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="4dp"
+            app:contentPadding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_pengeluaran"
+                android:textSize="20sp"
+                android:id="@+id/tvtoko"
+                android:fontFamily="@font/notosans_regular"
+                android:layout_gravity="start|center_vertical"
+                android:textColor="@color/secondary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="User"
+                android:textSize="20sp"
+                android:id="@+id/tvuser"
+                android:gravity="center"
+                android:fontFamily="@font/notosans_bold"
+                android:layout_gravity="end"
+                android:textColor="@color/primary_text"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="gostok"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_business_center_black_24dp"
+                            android:id="@+id/ivstok"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivstok"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/stok"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="gokasir"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_add_shopping_cart_black_24dp"
+                            android:id="@+id/ivkasir"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivkasir"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/kasir"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="gotransaksi"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_assignment_black_24dp"
+                            android:id="@+id/ivtrans"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivtrans"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/transaksi"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="goprofil"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_assignment_ind_black_24dp"
+                            android:id="@+id/ivprofil"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivprofil"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/profil"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="gobarcode"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_format_indent_increase_black_24dp"
+                            android:id="@+id/ivbarcode"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivbarcode"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="Barcode"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="50dp"
+                    android:padding="5dp"
+                    app:cardElevation="4dp"
+                    android:onClick="gochart"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_show_chart_black_24dp"
+                            android:id="@+id/ivbagikan"
+                            tools:ignore="VectorDrawableCompat" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivbagikan"
+                            android:textColor="@color/red"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:text="Grafik"/>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/pop_manual" />
+   <include layout="@layout/adsbanner" />
+</RelativeLayout>
